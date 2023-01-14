@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230111230249">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230115005626">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -70,31 +70,49 @@
 			<section class="section-webdev">
 				<div class="webdev-section__container">
 					<div class="webdev-section__webdev-header-container">
-						<div class="webdev-section__tag-list tag-list">
-							<div class="card__tag_webdev">Разработка</div>
-							<div class="card__tag_webdev">Веб-дизайн</div>
+						<div class="webdev-header-container__card card">
+							<div class="card__tags">
+								<div class="card__tag">Разработка</div>
+								<div class="card__tag">Веб дизайн</div>
+							</div>
 						</div>
 						<div class="webdev-section__webdev-tittle">Корпоративный сайт юридической фирмы IPLC</div>
 					</div>
 				</div>
-				<picture><source srcset="img/website-example/tittlebg.webp" type="image/webp"><img class="webdev-section__bg-image" src="img/website-example/tittlebg.png" alt=""></picture>
-				<div class="section-goals__container-flex-columns container-flex-columns">
-					<div class="container-flex-columns__left-column">
-						<div class="container-flex-columns__content">
-							<div class="webdev-section__works-list-tittle">2022</div>
-							<ul class="webdev-section__works-list">
-								<li class="webdev-section__item-works-list">Аналитика</li>
-								<li class="webdev-section__item-works-list">UX/UI-дизайн</li>
-								<li class="webdev-section__item-works-list">Frontend</li>
-								<li class="webdev-section__item-works-list">Backend</li>
-							</ul>
+				<div class="webdev-section__bg-image">
+					<picture><source srcset="img/website-example/tittlebg.webp" type="image/webp"><img src="img/website-example/tittlebg.png" alt=""></picture>
+				</div>
+
+				<!-- <div class="agency-section__container-flex-columns_dynamic container-flex-columns_dynamic">
+                        <div class="container-flex-columns_dynamic__left-column_dynamic">
+                            <div class="container-flex-columns_dynamic__empty-block_dynamic"></div>
+                        </div>
+                        <div class="container-flex-columns_dynamic__right-column_dynamic">
+                            <div class="agency-section__agency-subtittle">
+                                <span>Digitally</span> - уверенный стартап с бекраундом. С 2014 года мы создаем уникальные и современные digital-решения, которые продают.
+                            </div>
+                        </div>
+                    </div> -->
+
+				<div class="webdev-section__container">
+					<div class="webdev-section__flex-container-columns flex-container-columns">
+						<div class="flex-container-columns__left-column">
+							<div class="flex-container-columns__content">
+								<div class="webdev-section__works-list-tittle">2022</div>
+								<ul class="webdev-section__works-list">
+									<li class="webdev-section__item-works-list">Аналитика</li>
+									<li class="webdev-section__item-works-list">UX/UI-дизайн</li>
+									<li class="webdev-section__item-works-list">Frontend</li>
+									<li class="webdev-section__item-works-list">Backend</li>
+								</ul>
+							</div>
 						</div>
-					</div>
-					<div class="container-flex-columns__right-column">
-						<div class="container-flex-columns__content">
-							<div class="webdev-section__iplc-section-right-tittle">IPLC</div>
-							<div class="webdev-section__iplc-section-right-text">IPLC - сервис предоставляющий комплексное решение для защиты интеллектуальной собственности. Сочетание патентной, юридической и образовательной практики для бизнеса.</div>
-							<a class="webdev-section__iplc-section-right-href _icon-br-arr">Перейти на сайт</a>
+						<div class="flex-container-columns__right-column">
+							<div class="flex-container-columns__content">
+								<div class="webdev-section__iplc-section-right-tittle">IPLC</div>
+								<div class="webdev-section__iplc-section-right-text">IPLC - сервис предоставляющий комплексное решение для защиты интеллектуальной собственности. Сочетание патентной, юридической и образовательной практики для бизнеса.</div>
+								<a class="webdev-section__iplc-section-right-href _icon-br-arr">Перейти на сайт</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -108,18 +126,20 @@
 						<h3 class="section__section-name_webdev">ЦЕЛИ И ЗАДАЧИ</h3>
 					</div>
 				</div>
-				<div class="section-goals__container-flex-columns_dynamic container-flex-columns_dynamic">
-					<div class="container-flex-columns_dynamic__left-column_dynamic">
-						<div class="container-flex-columns_dynamic__empty-content_dynamic"></div>
-					</div>
-					<div class="container-flex-columns_dynamic__right-column_dynamic">
-						<div class="container-flex-columns__content">
-							<ul class="design-section__goals-list">
-								<li class="design-section__goals-item _icon-star">Сформировать положительный имидж бренда и увеличить конверсию в заявку</li>
-								<li class="design-section__goals-item _icon-star">Сделать удобную навигацию с фокусом на мобильные<br>Разработать современный, функциональный дизайн</li>
-								<li class="design-section__goals-item _icon-star">Настроить удобное управление контентом из административной панели</li>
-								<li class="design-section__goals-item _icon-star">Встроить константы из нового брендбука клиента и развить единый визуальный язык</li>
-							</ul>
+				<div class="webdev-section__container">
+					<div class="section-goals__flex-container-columns_dynamic flex-container-columns_dynamic">
+						<div class="flex-container-columns_dynamic__left-column">
+							<div class="flex-container-columns_dynamic__empty-content"></div>
+						</div>
+						<div class="flex-container-columns_dynamic__right-column">
+							<div class="container-flex-columns__content">
+								<ul class="design-section__goals-list">
+									<li class="design-section__goals-item _icon-star">Сформировать положительный имидж бренда и увеличить конверсию в заявку</li>
+									<li class="design-section__goals-item _icon-star">Сделать удобную навигацию с фокусом на мобильные<br>Разработать современный, функциональный дизайн</li>
+									<li class="design-section__goals-item _icon-star">Настроить удобное управление контентом из административной панели</li>
+									<li class="design-section__goals-item _icon-star">Встроить константы из нового брендбука клиента и развить единый визуальный язык</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -133,11 +153,11 @@
 						<h3 class="section__section-name_webdev">РЕШЕНИЕ</h3>
 					</div>
 				</div>
-				<div class="section-soluions__container-flex-columns_dynamic container-flex-columns_dynamic">
-					<div class="container-flex-columns_dynamic__left-column_dynamic">
-						<div class="container-flex-columns_dynamic__empty-column_dynamic"></div>
+				<div class="section-soluions__flex-container-columns_dynamic flex-container-columns_dynamic">
+					<div class="flex-container-columns_dynamic__left-column">
+						<div class="flex-container-columns_dynamic__empty-column"></div>
 					</div>
-					<div class="container-flex-columns_dynamic__right-column_dynamic">
+					<div class="flex-container-columns_dynamic__right-column">
 						<div class="container-flex-columns__content">
 							<ul class="design-section__soluions-list">
 								<li class="design-section__soluions-item">Яркий минималистичный интерфейс и элементы с эффектом паралакс создают уникальный визуальный образ.</li>
@@ -148,11 +168,11 @@
 				<div class="section-soluions__web-image-container">
 					<picture><source srcset="img/website-example/success.webp" type="image/webp"><img class="section-soluions__web-image" src="img/website-example/success.png" alt=""></picture>
 				</div>
-				<div class="section-soluions__container-flex-columns_dynamic container-flex-columns_dynamic">
-					<div class="container-flex-columns_dynamic__left-column_dynamic">
-						<div class="container-flex-columns_dynamic__empty-column_dynamic"></div>
+				<div class="section-soluions__flex-container-columns_dynamic flex-container-columns_dynamic">
+					<div class="flex-container-columns_dynamic__left-column">
+						<div class="flex-container-columns_dynamic__empty-column"></div>
 					</div>
-					<div class="container-flex-columns_dynamic__right-column_dynamic">
+					<div class="flex-container-columns_dynamic__right-column">
 						<div class="container-flex-columns__content">
 							<ul class="design-section__soluions-list">
 								<li class="design-section__soluions-item">Гибкое управление составом страниц реализовали с помощью сниппетов. Это готовые сверстанные кастомные блоки, в которых подобно шаблону можно заменять содержимое без погружения в код.</li>
@@ -164,11 +184,11 @@
 				<div class="section-soluions__web-image-container">
 					<picture><source srcset="img/website-example/solutio.webp" type="image/webp"><img class="section-soluions__web-image" src="img/website-example/solutio.png" alt=""></picture>
 				</div>
-				<div class="section-soluions__container-flex-columns_dynamic container-flex-columns_dynamic">
-					<div class="container-flex-columns_dynamic__left-column_dynamic">
-						<div class="container-flex-columns_dynamic__empty-column_dynamic"></div>
+				<div class="section-soluions__flex-container-columns_dynamic flex-container-columns_dynamic">
+					<div class="flex-container-columns_dynamic__left-column">
+						<div class="flex-container-columns_dynamic__empty-column"></div>
 					</div>
-					<div class="container-flex-columns_dynamic__right-column_dynamic">
+					<div class="flex-container-columns_dynamic__right-column">
 						<div class="container-flex-columns__content">
 							<ul class="design-section__soluions-list">
 								<li class="design-section__soluions-item">Главный принцип разработки дизайна — качественное отображение информации на телефоне. Блоки упрощены, ненужная информация скрыта. Всё управление осуществляется пальцем одной руки</li>
@@ -190,11 +210,11 @@
 						<h3 class="section__section-name_webdev">РЕЗУЛЬТАТ</h3>
 					</div>
 				</div>
-				<div class="section-result__container-flex-columns_dynamic container-flex-columns_dynamic">
-					<div class="container-flex-columns_dynamic__left-column_dynamic">
-						<div class="container-flex-columns_dynamic__empty-column_dynamic"></div>
+				<div class="section-result__flex-container-columns_dynamic flex-container-columns_dynamic">
+					<div class="flex-container-columns_dynamic__left-column">
+						<div class="flex-container-columns_dynamic__empty-column"></div>
 					</div>
-					<div class="container-flex-columns_dynamic__right-column_dynamic">
+					<div class="flex-container-columns_dynamic__right-column">
 						<div class="container-flex-columns__content_result">
 							<div class="container-flex-columns__top-row">
 								<h2 class="container-flex-columns__result-tittle">в 2 раза</h2>
@@ -217,11 +237,11 @@
 						<h3 class="section__section-name_webdev">КОМАНДА</h3>
 					</div>
 				</div>
-				<div class="section-team__container-flex-columns_dynamic container-flex-columns_dynamic">
-					<div class="container-flex-columns_dynamic__left-column_dynamic">
-						<div class="container-flex-columns_dynamic__empty-column_dynamic"></div>
+				<div class="section-team__flex-container-columns_dynamic flex-container-columns_dynamic">
+					<div class="flex-container-columns_dynamic__left-column">
+						<div class="flex-container-columns_dynamic__empty-column"></div>
 					</div>
-					<div class="container-flex-columns_dynamic__right-column_dynamic">
+					<div class="flex-container-columns_dynamic__right-column">
 						<ul class="container-flex-columns__team-grid-list">
 							<li class="container-flex-columns__grid-team-item grid-team-item">
 								<div class="grid-team-item__job-tittle">Руководитель проекта</div>
@@ -310,7 +330,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20230111230249"></script>
+	<script src="js/app.min.js?_v=20230115005626"></script>
 </body>
 
 </html>
